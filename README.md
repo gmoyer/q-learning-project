@@ -6,10 +6,10 @@ This project demonstrates the implementation of both approximate Q-learning and 
 
 ## Features
 
-- **Regular Q-Learning**: Utilizes a tabular approach to learn the optimal policy by updating Q-values for state-action pairs.
-- **Approximate Q-Learning**: Employs function approximation to generalize Q-values across similar states, enabling scalability to larger state spaces.
+- **Regular Q-Learning**: Learns the optimal policy by updating Q-values for approximate state-action pairs.
+- **Approximate Q-Learning**: Employs features to generalize Q-values across similar states, enabling scalability to larger state spaces.
 - **Gymnasium Integration**: Leverages the Lunar Lander environment for simulation and testing.
-- **Visualization**: Includes tools to visualize the agent's performance and learning progress.
+- **Visualization**: Includes environment wrapping and matplotlib to visualize and record the agent's performance and learning progress.
 
 ## Results
 
